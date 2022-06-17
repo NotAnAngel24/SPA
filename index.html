@@ -1,0 +1,261 @@
+<!--please give credits to the real owners of the icons and gif and other resources I have used-->
+<!--I'll provide their information if reqested-->
+<!--  ---------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<!-- head contains favicon and title tabs and meta-->
+
+<head>
+    <!--meta viewport to autmatic scale the website---------------------------------------------------------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+
+    <title>
+        PHIL DA AIR
+    </title>
+    <style>
+        /*---------------------Body background--------------------*/
+        /*---------------------colour theme used 'back to earth' from ui gradient --------------------*/
+        
+        body {
+            background: #00C9FF;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to top, #92FE9D, #00C9FF);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to top, #92FE9D, #00C9FF);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+        }
+        /*header-content*/
+        
+        #header {
+            background-color: transparent;
+            border: 1px solid transparent;
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+        }
+        /*animation*/
+        
+        #header,
+        #home,
+        #about,
+        #footer {
+            animation-duration: 2s;
+            animation-name: slidein;
+            transition-duration: ease-in-out;
+        }
+        
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+            75% {
+                font-size: 300%;
+                margin-left: 25%;
+                width: 150%;
+            }
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+        /*navbar*/
+        
+        #navbar {
+            background-color: transparent;
+            overflow: hidden;
+            height: 90px;
+            width: 1250px;
+            float: left;
+            border: 1px solid transparent;
+            padding: auto;
+            margin: 10px;
+            text-align: center;
+            display: flex;
+        }
+        
+        .push {
+            margin-top: auto;
+        }
+        /*li within navbars*/
+        
+        li {
+            color: transparent;
+        }
+        
+        a:link,
+        a:visited,
+        a.li {
+            background: #fc00ff;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to top, #00dbde, #fc00ff);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to top, #00dbde, #fc00ff);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            padding: 0px 50px;
+            text-align: absolute;
+            text-decoration: none;
+            display: inline-block;
+            -webkit-background-clip: text;
+        }
+        /*for phones and smaller screen devices*/
+        
+        @media screen and (max-width: 500px) {
+            #header,
+            #home,
+            #about,
+            #footer {
+                float: center;
+                display: block;
+                width: 100%;
+                text-align: left;
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+            }
+        }
+        /*body contents filled with information */
+        
+        #home {
+            background-color: transparent;
+            clear: both;
+            height: 600px;
+            border: 1px transparent;
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+        }
+        
+        #about {
+            background-color: transparent;
+            clear: both;
+            height: 300px;
+            border: 1px transparent;
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+        }
+        /*Para*/
+        /*----Dark jungle green is much like a darker version of the jungle green tone that resembles a lush forest setting, yet the color contains far more traces of black than anything else.
+        Dark jungle green
+        Hex #1A2421
+        RGB 26, 36, 33
+        CMYK 28, 0, 8, 86
+        */
+        
+        p {
+            text-align: left;
+            position: static;
+            top: 50%;
+            left: 50%;
+            font-size: 30px;
+            background: #1A2421;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+        /* heading 1 */
+        
+        h1 {
+            background: #ff00cc;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #333399, #ff00cc);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+        
+        h2 {
+            background: #00F260;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #0575E6, #00F260);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #0575E6, #00F260);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+        /*footer  */
+        
+        #footer {
+            background-color: transparent;
+            clear: both;
+            text-align: center;
+            border: 1px transparent;
+            padding: 5px;
+            margin: 5px;
+        }
+        
+        .loading-text {
+            font-size: 50%;
+            color: gray;
+        }
+    </style>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</head>
+
+<!--body--which contains: header, navigation menu: logo, home, about, products, lifestyle, conatcs, main contents: hero page, home page, about page, products, lifestyle footer page: which contains contacts-->
+
+<body>
+    <div id="header">
+        <h1> PHIL DA AIR </h1>
+    </div>
+    <div id="navbar">
+        <h2>
+            <li class="active"><a class="#home" href="#home">Weather Data</li><a></h2>
+            <h2>
+                <li><a class="#about" href="#about">About</a></li>
+        </h2>
+        <h2>
+            <li><a class="footer" href="#footer">Random Environmental Data</a></li>
+        </h2>
+    </div>
+
+
+    <!-- insert contens inside------------------------------------------------>
+    <div id="about">
+        <h1>About</h1>
+        <p> A Single Page App which gives environmental data to any users. "The earth is what we all have in common.” —Wendell Berry
+        </p>
+    </div>
+    <div id="home">
+        <h1>Get Weather Information</h1>
+    </div>
+    <!--footer and contacts------------------------------------------------>
+
+    <div id="footer">
+        <h1>Get Random Environmental Information</h1>
+    </div>
+    <script>
+        let scrollPos = window.scrollY; /*geolocation for requesting user location*/
+        const successCallback = (position) => {
+            console.log(position);
+        };
+        const errorCallback = (position) => {
+            console.log(position);
+        }
+        navigator.geolocation.getCurrentPosition(successCallback,
+            errorCallback);
+        /*----for fetching air quality information----*/
+        fetch('https://api.ambeedata.com')
+            .then(response => response.json())
+            .then(data => console.log(data));
+        APIKey = "ef484e291a94243f336352f07d186ffb41ba2516b8c6fbe244456074b66d7ad2";
+        console.log(fetch);
+        /*request section*/
+        new Request('https://api.ambeedata.com')
+        new Request('https://api.ambeedata.com', Blob);
+        console.log(Request);
+    </script>
+</body>
+
+
+
+</html>
